@@ -1,0 +1,100 @@
+﻿/* Estilo para todo el cuerpo */
+body {
+    background-image: url('../CSS/imagen.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+/* Estilos de encabezado */
+h1 {
+    font-size: large;
+    color: #007bff;
+    text-align: center;
+}
+
+h2 {
+    font-size:small;
+    color: #000000;
+    text-align: center;
+}
+
+/* Estilos de contenedor */
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+/* Estilos de contenedor de entrada */
+.contenedor-texto {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilos de botones */
+.boton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid #001160;
+    border-radius: 5px;
+    height: 50px;
+    text-align:center;
+    font-weight: bold;
+    font-size: large;       
+    width: 53px;
+}
+
+.redondeado-txt {
+    border-radius: 5px;
+    padding: 10px;
+    border: 3px solid #000;
+    text-align: right;
+    width: 80%;
+    height: 80px;
+    margin: 0 auto;
+    font-family: Consolas, monospace;
+    font-size: xx-large;
+}
+
+.botones-num {
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #000;
+    text-align: center;
+    width: 53px;
+    height: 53px;
+    margin: 0 auto;
+    font-family: Consolas, monospace;
+    font-size: large;
+    font-weight: bold;
+}
+
+/* Estilos de contenedor de botones */
+.contenedor-botones {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    gap: 10px; /* Espacio entre los botones */
+    margin-bottom: 10px; /* Espacio debajo de cada fila de botones */
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    color: #808080
+}
